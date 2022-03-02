@@ -54,7 +54,7 @@ void main()
 	Snake arr[MAX];
 	FoodLocation food[FOOD];
 	int snake_len = 10;
-	int speed = 1000;
+	int speed = 50;
 	bool isPlaying = true, exit = false;
 	while (isPlaying) {
 		exit = start(); //show the main menu and if user select 0, then exit the program
